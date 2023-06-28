@@ -52,7 +52,7 @@ La principal diferencia es que (si es fast-forward) despues la rama main podra r
 
 ## ¿Qué comando o comandos utilizaste en el paso 30?
 
-> git reflog
+> git reflog  
 > git reset --hard e71d574
 
 ## ¿Qué comando o comandos usaste en el paso 32?
