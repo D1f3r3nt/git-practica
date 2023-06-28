@@ -36,6 +36,8 @@ Por poder, puede ser fast-forward o no, todo dependera si queremos que el merge 
 
 La principal diferencia es que (si es fast-forward) despues la rama main podra retroceder hacia un commit que se haya hecho dentro de la rama title, y el otro caso (si es no-fast-forward) la rama main no podra volver a un cambio de la rama title, ya que en la rama main solo hay el resultado del merge.
 
+Otra diferencia seria que si hacemos fast-forward es imposible tener un conflicto y si hacemos un no-fast-forward hay la posibilidad de que haya un conflicto o no
+
 ## ¿Qué comando o comandos utilizaste en el paso 27?
 
 > git reflog  
